@@ -1,0 +1,14 @@
+To run this project, open 'start' which is a link to the mean of the program.
+Here you can set the dataset and the parameters you are going to work with:
+simply comment whatever you do not want (you can only choose 1 per block).
+
+- Dataset: circle, spiral, landmines;
+- normlapl: unnorm, symnorm; it specifies if the un normalized Laplacian matrix or the normalized one is going to be used
+- solvels: backslash, conjgrad, gmres, lanczos; it specifies how the sparse linear system in the computation of eigenvalues is solved.
+- clustmeth: kmeans, kmedoids, ward, euclidean; it specifies the clustering algorithm (Ward and euclidean refer to hierachical clustering).
+
+sigma (requested to be 1)
+k = number of neighbors.
+num =  maximum number of clusters.
+tol = tolerance used in iterative algorithms.
+maxit = maximum number of iterations used in iterative algorithms. 
