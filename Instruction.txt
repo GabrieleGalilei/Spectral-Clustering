@@ -1,4 +1,4 @@
-To run this project, open 'start' which is a link to the mean of the program.
+To run this project, open 'prog.m'.
 Here you can set the dataset and the parameters you are going to work with:
 simply comment whatever you do not want (you can only choose 1 per block).
 
